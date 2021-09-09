@@ -43,4 +43,3 @@ if [ $? == 0 ]
 then
         aws s3 cp /tmp/$myname-httpd-logs-$timestamp.tar s3://$s3_bucket/$myname-httpd-logs-$timestamp.tar
 fi
-
